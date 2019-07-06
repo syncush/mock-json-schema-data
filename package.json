@@ -1,0 +1,29 @@
+{
+  "name": "mock-json-data",
+  "version": "1.0.0",
+  "description": "An npm package for creating mock data from json schema",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "npm run lint && node node_modules/mocha/bin/_mocha --recursive tests/"
+  },
+  "keywords": [
+    "json",
+    "mock",
+    "data",
+    "schema"
+  ],
+  "author": "Daniel Hermon <danielhermonsync@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ajv": "^6.10.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.0.1",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "mock-data": "^1.5.5",
+    "randexp": "^0.5.3"
+  }
+}
