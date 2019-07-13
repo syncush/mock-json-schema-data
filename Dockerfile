@@ -4,7 +4,7 @@ RUN mkdir -p /app/mock-json-data
 
 WORKDIR /app/mock-json-date
 
-COPY packge*.json ./app/mock-json-data
+COPY package*.json ./app/mock-json-data
 
 RUN npm install --production --silent
 
