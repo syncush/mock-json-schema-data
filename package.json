@@ -1,11 +1,11 @@
 {
-  "name": "mock-json-data",
+  "name": "@syncush/mock-json-data",
   "version": "1.0.0",
   "description": "An npm package for creating mock data from json schema",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "npm run lint && node node_modules/mocha/bin/_mocha --recursive tests/"
+    "start": "node index.js",
+    "test": "node node_modules/mocha/bin/_mocha --recursive tests/"
   },
   "keywords": [
     "json",
